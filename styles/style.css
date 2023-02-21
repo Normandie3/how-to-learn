@@ -96,6 +96,7 @@
   font-size: 18px;
   font-style: normal;
   color: #2f80ed;
+  flex-basis: 170px;
 }
 
 .two-columns_paragraph__span-accent {
@@ -112,8 +113,129 @@
   justify-content: space-between;
 }
 
-.two-columns__paragraph {
+.two-columns_paragraph {
   line-height: 34px;
   font-size: 24px;
   font-style: normal;
+}
+
+.digits {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: white;
+}
+
+.digits__title {
+  width: 60%;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.digits__subtitle {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-style: normal;
+}
+
+.digits__table {
+  display: flex;
+  width: 1100px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.table__cell {
+  width: 250px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+
+}
+
+.table__heading {
+  margin-bottom: 20px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+.table__text {
+  margin-top: 20px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-style: normal;
+}
+
+.feynman {
+  height: 890px;
+  display: flex;
+  position: relative;
+  background-image: url(../images/feynman.png);
+  background-repeat: no-repeat;
+  background-position: bottom 0 left 0;
+  background-size: 867px 637px;
+  background-color: #f2f2f2;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feynman__title {
+  width: 648px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.feynman__subtitle {
+  line-height: 51px;
+  font-size: 36px;
+  font-style: normal;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  font-style: normal;
+  color: #2f80ed;
+}
+
+.kaufman {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  padding-bottom:90px;
+  color: white;
+  background-color: red;
+  overflow:hidden;
+  position: relative;
+}
+
+.table {
+  margin-left: auto;
+  margin-right:auto;
+  width:1100px;
+  justify-content: space-between;
 }
