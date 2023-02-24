@@ -10,6 +10,7 @@
 </head>
 
 <body class="page">
+
   <header class="header">
     <div class="logo logo_place_header"></div>
     <h1 class="header__title">Научиться учиться</h1>
@@ -18,29 +19,30 @@
     <img src="./images/header-image.png" class="header__main-illustration" alt="Опять двойка">
     <div class="header__square-pic"></div>
   </header>
+
   <main class="content">
-    <section class="description">
+    <section class="description" aria-label="Секция со статьей">
       <div class="two-columns">
-        <p class="two-columns__brief">Главные проблемы в обучении</p>
+        <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
         <div class="two-columns__main-text">
-          <p class="two-columns_paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал.
+          <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал.
             Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест,
             но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.
           </p>
-          <p class="two-columns_paragraph">
-            <span class="two-columns_paragraph__span-accent">Вывод:</span> учиться тоже нужно уметь, но почему-то этому
+          <p class="two-columns__paragraph">
+            <span class="two-columns__span-accent">Вывод:</span> учиться тоже нужно уметь, но почему-то этому
             мало
             где учат. Что с этим делать?
           </p>
-          <p class="two-columns_paragraph">Конкретные техники и упражнения помогают изменить подход к обучению, сделать
+          <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению, сделать
             его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
         </div>
       </div>
     </section>
     <section class="digits">
-      <h2 class="digits__title">Цифры и факты</h2>
-      <p class="digits__subtitle">Про учёбу и мозг</p>
-      <div class="table digits__table">
+      <h2 class="section-title">Цифры и факты</h2>
+      <p class="section-subtitle">Про учёбу и мозг</p>
+      <div class="table">
         <div class="table__cell">
           <h3 class="table__heading">86 миллиардов</h3>
           <p class="table__text">Число нейронов в мозге человека</p>
@@ -61,6 +63,7 @@
         <div class="table__cell">
           <h3 class="table__heading">420 миллионов</h3>
           <p class="table__text">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройств</p>
+
           <p class="table__text">Всемирный Банк, 2017</p>
         </div>
         <div class="table__cell">
@@ -83,8 +86,8 @@
       <a href="#" class="feynman__link">Подробнее &rarr;</a>
     </section>
     <section class="kaufman">
-      <h2 class="section__title">Принципы обучения</h2>
-      <p class="section__subtitle">от Джоша Кауфмана</p>
+      <h2 class="section-title">Принципы обучения</h2>
+      <p class="section-subtitle">от Джоша Кауфмана</p>
       <div class="table table_theme_dark">
         <div class="table__cell table__cell_theme_dark">
           <h3 class="table__heading">1</h3>
@@ -127,8 +130,9 @@
           <p class="table__text">Уделяйте внимание количеству и скорости.</p>
         </div>
       </div>
-      <div class="triangle"></div>
+      <div class="kaufman__triangle"></div>
     </section>
+  </main>
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__column footer__column_content_copyright">
@@ -162,7 +166,6 @@
         </div>
       </div>
     </footer>
-  </main>
 </body>
 
 </html>
