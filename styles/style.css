@@ -144,6 +144,56 @@
   margin-bottom: 0;
 }
 
+.techniques {
+  width: 80%;
+  padding-top: 100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards {
+  width: 920px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  column-gap: 100px;
+}
+
+.cards__item {
+  width: 240px;
+  margin-top: 60px;
+}
+
+.cards__image {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto;
+  display: block;
+}
+
+.cards__title {
+  margin: 43px 0 0;
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.15;
+  font-weight: bold;
+}
+
+.cards__description {
+  margin: 16px 0 0;
+  text-align: center;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: normal;
+}
+
 .digits {
   margin-top: 100px;
   margin-bottom: 100px;
