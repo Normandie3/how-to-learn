@@ -2,7 +2,7 @@
   width: 920px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: first baseline;
+  justify-content: flex-start;
   list-style-type: none;
   column-gap: 100px;
   margin: 0;
