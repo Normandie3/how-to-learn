@@ -6,5 +6,5 @@
   width: 765px;
   z-index: 1;
   object-fit: contain;
-
+  overflow: hidden;
 }
